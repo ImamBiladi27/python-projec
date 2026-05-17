@@ -1,3 +1,25 @@
+"""
+Simple Port Scanner & Recon Tool
+=================================
+
+Melakukan scan port pada target domain/IP dan menampilkan informasi
+dasar seperti HTTP response header dan TLS version.
+
+Fitur:
+    - Resolusi domain ke IP
+    - Scan port umum (21, 22, 80, 443, 8080, 8443)
+    - HTTP banner grab pada port 80/8080
+    - TLS version detection pada port 443/8443
+    - Report otomatis (.txt)
+
+Contoh penggunaan:
+    $ python test2.py
+    Masukkan domain atau IP: example.com
+
+Dependencies:
+    - Standard library: socket, ssl, datetime
+"""
+
 import socket
 import ssl
 from datetime import datetime
