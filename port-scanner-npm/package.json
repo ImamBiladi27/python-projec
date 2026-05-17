@@ -1,0 +1,22 @@
+{
+  "name": "port-scanner-recon",
+  "version": "1.0.0",
+  "description": "Simple port scanner & recon tool — scan ports, grab HTTP banners, detect TLS versions",
+  "main": "index.js",
+  "bin": {
+    "port-scanner": "./bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "bin/"
+  ],
+  "keywords": [
+    "port-scanner",
+    "recon",
+    "network",
+    "security",
+    "tls",
+    "http-banner"
+  ],
+  "license": "MIT"
+}
